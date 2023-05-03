@@ -47,6 +47,7 @@ try:
         elif i mod 5 == 0:
             echo "Buzz"
         else:
-            echo i
+            # $ で文字列へ変換
+            echo $i
 except:
     echo "Input value is not a number."
